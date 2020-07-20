@@ -1,0 +1,83 @@
+:root {
+    --main-gray: #7c7c7c;
+    --dark-gray: #1c1c1c;
+    --light-gray: #bbbbbb;
+    --light-gray2: #dedede;
+    --accent: #0392cf;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.img-avatar {
+    max-width: 300px;
+}
+
+.greyscale {
+    filter: grayscale(100%);
+}
+
+.h-600 {
+    min-height: 600px;
+}
+
+.h-full {
+    min-height: 100vh;
+}
+
+.bg-custom1 {
+    background-image: linear-gradient(white, var(--light-gray));
+}
+
+.bg-custom2 {
+    background-image: linear-gradient(var(--dark-gray), black);
+}
+
+.bg-custom3 {
+    background-image: linear-gradient(var(--light-gray2), white);
+}
+
+.logo-image {
+    height: 100px;
+}
+
+.dark-gray {
+    background-color: var(--accent);
+    color: white;
+}
+
+.color-dark-gray {
+    color: var(--dark-gray);
+}
+
+.color-light-gray {
+    color: var(--light-gray);
+}
+
+.color-accent {
+    color: var(--accent);
+}
+
+.hover-icon {
+    color: var(--dark-gray);
+}
+
+.hover-icon:hover {
+    color: var(--accent);
+    cursor: pointer;
+}
